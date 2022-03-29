@@ -15,24 +15,24 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
-        "drupal/core-composer-scaffold": "^9.3",
-        "drupal/core-project-message": "^9.3",
-        "drupal/core-recommended": "^9.3",
-		"ext-date": "*",
+        "ext-PDO": "*",
+        "ext-SPL": "*",
+        "ext-SimpleXML": "*",
+        "ext-date": "*",
         "ext-dom": "*",
         "ext-filter": "*",
         "ext-gd": "*",
         "ext-hash": "*",
         "ext-json": "*",
         "ext-pcre": "*",
-        "ext-PDO": "*",
         "ext-session": "*",
-        "ext-SimpleXML": "*",
-        "ext-SPL": "*",
         "ext-tokenizer": "*",
-        "ext-xml": "*"
-
+        "ext-xml": "*",
+        "composer/installers": "^1.9",
+        "drupal/bootstrap": "3.x-dev@dev",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-project-message": "^9.3",
+        "drupal/core-recommended": "^9.3"
     },
     "conflict": {
         "drupal/drupal": "*"

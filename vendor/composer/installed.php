@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.9',
-        'version' => '9.3.9.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'e796eb3fd16c6bdc82db050a884cd084497832ba',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -123,6 +123,17 @@
             'replaced' => array(
                 0 => '9.3.9',
             ),
+        ),
+        'drupal/bootstrap' => array(
+            'pretty_version' => 'dev-3.x',
+            'version' => 'dev-3.x',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap',
+            'aliases' => array(
+                0 => '3.x-dev',
+            ),
+            'reference' => 'a8ece22b7158cf8e595e220d653b58b163ccd027',
+            'dev_requirement' => false,
         ),
         'drupal/breakpoint' => array(
             'dev_requirement' => false,
@@ -635,12 +646,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '9.3.9',
-            'version' => '9.3.9.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'e796eb3fd16c6bdc82db050a884cd084497832ba',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
