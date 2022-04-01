@@ -49,7 +49,8 @@ O conteúdo terá, pelo menos, 10 filmes e 3 atores para cada filme.
 - adição das páginas de conteúdo: filme;
 - adição das páginas de conteúdo: elenco;
 - adição do sistema de busca na página Filmes;
-- criação de view para a página Atores e Atrizes; 
+- criação de view para a página Atores e Atrizes;
+- desabilitar cadastro de usários no site.
 
 
 Guia Mark Down: <https://www.markdownguide.org/basic-syntax/>
