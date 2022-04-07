@@ -1,0 +1,20 @@
+uuid: c62b111d-d30c-45b1-a3b0-52070392bd5a
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_categoria_genero
+field_name: field_categoria_genero
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

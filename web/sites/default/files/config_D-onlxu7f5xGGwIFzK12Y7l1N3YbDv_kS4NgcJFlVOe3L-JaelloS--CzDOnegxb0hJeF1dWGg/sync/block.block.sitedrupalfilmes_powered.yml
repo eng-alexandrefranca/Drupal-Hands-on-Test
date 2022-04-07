@@ -1,0 +1,22 @@
+uuid: 1d9f7099-7d30-498a-ae86-cdd0aa267ffc
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - sitedrupalfilmes
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: sitedrupalfilmes_powered
+theme: sitedrupalfilmes
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Desenvolvido com Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

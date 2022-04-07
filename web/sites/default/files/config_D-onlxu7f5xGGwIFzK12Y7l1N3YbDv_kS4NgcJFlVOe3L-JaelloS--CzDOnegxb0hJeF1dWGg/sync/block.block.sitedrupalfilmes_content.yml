@@ -1,0 +1,22 @@
+uuid: 677989bc-f67e-4c45-b597-b6ff58f4c368
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sitedrupalfilmes
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: sitedrupalfilmes_content
+theme: sitedrupalfilmes
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

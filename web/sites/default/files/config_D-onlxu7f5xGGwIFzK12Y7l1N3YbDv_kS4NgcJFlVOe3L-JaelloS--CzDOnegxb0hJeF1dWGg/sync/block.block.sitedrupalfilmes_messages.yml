@@ -1,0 +1,22 @@
+uuid: f381b4b8-24b8-440e-93d2-84f4bf52f525
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sitedrupalfilmes
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: sitedrupalfilmes_messages
+theme: sitedrupalfilmes
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  label_display: '0'
+  provider: system
+visibility: {  }

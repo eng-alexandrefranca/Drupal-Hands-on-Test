@@ -1,0 +1,11 @@
+uuid: 49628f5e-388e-4d8b-bd00-ff2de4a291f7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.pagina_elenco
+id: node.pagina_elenco
+target_entity_type_id: node
+target_bundle: pagina_elenco
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: e6c4fa41-f6a7-4813-88db-261845aec575
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: pagina_elenco
+type: pagina_elenco
+description: 'Página de exibição dos atores e atrizes principais de cada filme.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

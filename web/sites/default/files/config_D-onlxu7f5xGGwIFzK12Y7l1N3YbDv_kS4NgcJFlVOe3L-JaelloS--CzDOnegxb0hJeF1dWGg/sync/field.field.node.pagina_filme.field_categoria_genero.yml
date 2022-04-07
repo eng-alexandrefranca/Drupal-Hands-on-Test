@@ -1,0 +1,29 @@
+uuid: 5e328c6e-c754-4ebd-9180-9d756be0e806
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria_genero
+    - node.type.pagina_filme
+    - taxonomy.vocabulary.categoria_genero
+id: node.pagina_filme.field_categoria_genero
+field_name: field_categoria_genero
+entity_type: node
+bundle: pagina_filme
+label: 'Categoria(s) de Gênero'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria_genero: categoria_genero
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

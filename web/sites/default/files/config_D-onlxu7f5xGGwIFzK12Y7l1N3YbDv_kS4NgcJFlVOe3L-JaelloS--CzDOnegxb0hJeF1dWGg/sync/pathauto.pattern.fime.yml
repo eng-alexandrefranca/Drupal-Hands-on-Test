@@ -1,0 +1,22 @@
+uuid: 5c6c552f-bf52-43e4-a14a-b8721ba91508
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: fime
+label: Fime
+type: 'canonical_entities:node'
+pattern: 'filme/[node:title]'
+selection_criteria:
+  f3c122b5-c3ca-4d20-81c1-dc70a69084de:
+    id: node_type
+    negate: false
+    uuid: f3c122b5-c3ca-4d20-81c1-dc70a69084de
+    context_mapping:
+      node: node
+    bundles:
+      pagina_filme: pagina_filme
+selection_logic: and
+weight: -5
+relationships: {  }

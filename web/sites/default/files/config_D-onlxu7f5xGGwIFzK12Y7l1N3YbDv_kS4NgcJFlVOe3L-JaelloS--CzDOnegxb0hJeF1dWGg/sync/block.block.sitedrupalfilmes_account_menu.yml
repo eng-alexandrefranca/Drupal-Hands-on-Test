@@ -1,0 +1,27 @@
+uuid: 923c2598-8fb0-40d6-9621-d5bd89614d68
+langcode: pt-br
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - sitedrupalfilmes
+_core:
+  default_config_hash: jzu74Q7R0QWgw8IniA9HZRSb_a8RPak1M0q5J-VGkZI
+id: sitedrupalfilmes_account_menu
+theme: sitedrupalfilmes
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu de conta de usuário'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

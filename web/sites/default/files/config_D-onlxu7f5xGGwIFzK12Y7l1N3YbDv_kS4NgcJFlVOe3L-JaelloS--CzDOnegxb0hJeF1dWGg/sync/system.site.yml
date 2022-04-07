@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: pt-br
+uuid: b445f495-5713-4a36-899e-584718f404c2
+name: 'Drupal Filmes'
+mail: desenvolvedor.alexandrefranca@gmail.com
+slogan: 'Site de Filmes com Drupal'
+page:
+  403: ''
+  404: ''
+  front: /filmes
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: pt-br
+mail_notification: ''

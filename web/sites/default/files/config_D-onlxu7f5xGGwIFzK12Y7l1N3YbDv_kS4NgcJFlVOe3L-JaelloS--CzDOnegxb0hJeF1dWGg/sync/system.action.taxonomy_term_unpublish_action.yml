@@ -1,0 +1,13 @@
+uuid: 5f1d28d1-5508-4484-b69b-875027c9107e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: z2sNRM3ECa7FPCGnSNje_9SmZJQgwhD_6fG_L4Mr8zI
+id: taxonomy_term_unpublish_action
+label: 'Despublicar termo da taxonomia'
+type: taxonomy_term
+plugin: 'entity:unpublish_action:taxonomy_term'
+configuration: {  }

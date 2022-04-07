@@ -1,0 +1,41 @@
+uuid: 2e0797dd-545c-45fb-acf4-e02129dfdcfa
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pagina_filme.body
+    - field.field.node.pagina_filme.field_capa_filme
+    - field.field.node.pagina_filme.field_categoria_classificacao_et
+    - field.field.node.pagina_filme.field_categoria_genero
+    - field.field.node.pagina_filme.field_categoria_tipo_de_conteudo
+    - field.field.node.pagina_filme.field_elenco
+    - node.type.pagina_filme
+  module:
+    - text
+    - user
+id: node.pagina_filme.teaser
+targetEntityType: node
+bundle: pagina_filme
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_capa_filme: true
+  field_categoria_classificacao_et: true
+  field_categoria_genero: true
+  field_categoria_tipo_de_conteudo: true
+  field_elenco: true
+  langcode: true

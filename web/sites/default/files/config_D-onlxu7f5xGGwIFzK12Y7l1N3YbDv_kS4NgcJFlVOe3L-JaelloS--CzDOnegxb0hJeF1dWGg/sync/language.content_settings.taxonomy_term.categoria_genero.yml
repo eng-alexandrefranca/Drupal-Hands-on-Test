@@ -1,0 +1,11 @@
+uuid: 25a149f9-b8d8-43d4-a409-ed4da91247de
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_genero
+id: taxonomy_term.categoria_genero
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_genero
+default_langcode: site_default
+language_alterable: false

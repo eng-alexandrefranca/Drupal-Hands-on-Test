@@ -1,0 +1,8 @@
+uuid: a3e115a6-f31e-438d-95ce-97474f6563cc
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Categoria Classificação Etária'
+vid: categoria_classificacao_etaria
+description: ''
+weight: -9

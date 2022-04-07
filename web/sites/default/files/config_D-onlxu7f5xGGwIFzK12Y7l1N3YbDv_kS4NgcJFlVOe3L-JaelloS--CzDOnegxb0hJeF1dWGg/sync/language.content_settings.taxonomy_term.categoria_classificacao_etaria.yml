@@ -1,0 +1,11 @@
+uuid: b5b6407a-748f-40ab-9f12-8f7cec92212b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_classificacao_etaria
+id: taxonomy_term.categoria_classificacao_etaria
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_classificacao_etaria
+default_langcode: site_default
+language_alterable: false

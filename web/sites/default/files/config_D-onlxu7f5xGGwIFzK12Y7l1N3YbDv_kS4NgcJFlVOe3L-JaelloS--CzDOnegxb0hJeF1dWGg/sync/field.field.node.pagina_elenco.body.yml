@@ -1,0 +1,23 @@
+uuid: 4ac97dc3-c29b-4538-a76c-6bc17c756fe7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pagina_elenco
+  module:
+    - text
+id: node.pagina_elenco.body
+field_name: body
+entity_type: node
+bundle: pagina_elenco
+label: Biografia
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

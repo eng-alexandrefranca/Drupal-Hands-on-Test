@@ -1,0 +1,8 @@
+uuid: b773c11e-18db-4003-8f96-216e1c768c50
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Categoria Gênero'
+vid: categoria_genero
+description: ''
+weight: -8

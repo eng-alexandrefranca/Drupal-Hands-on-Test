@@ -1,0 +1,11 @@
+uuid: cc878d54-1f92-4933-b585-88c9f1e071af
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.pagina_filme
+id: node.pagina_filme
+target_entity_type_id: node
+target_bundle: pagina_filme
+default_langcode: site_default
+language_alterable: false

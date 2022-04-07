@@ -1,0 +1,23 @@
+uuid: b79b63eb-a018-463e-aa96-72b075533d3a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elenco
+    - node.type.pagina_filme
+  module:
+    - link
+id: node.pagina_filme.field_elenco
+field_name: field_elenco
+entity_type: node
+bundle: pagina_filme
+label: Elenco
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 1
+field_type: link

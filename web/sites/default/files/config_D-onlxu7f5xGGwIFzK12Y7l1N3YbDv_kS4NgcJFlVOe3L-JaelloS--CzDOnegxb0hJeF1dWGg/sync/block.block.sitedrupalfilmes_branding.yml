@@ -1,0 +1,25 @@
+uuid: 57007269-038a-4f36-ad84-b10e6cbc5b9e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sitedrupalfilmes
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: sitedrupalfilmes_branding
+theme: sitedrupalfilmes
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Definição de marca do site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

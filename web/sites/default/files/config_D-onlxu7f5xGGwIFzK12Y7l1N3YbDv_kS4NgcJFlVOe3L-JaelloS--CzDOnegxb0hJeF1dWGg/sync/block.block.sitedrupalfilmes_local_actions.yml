@@ -1,0 +1,20 @@
+uuid: 12a52f05-e4f2-433a-9842-58c6862a6152
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - sitedrupalfilmes
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: sitedrupalfilmes_local_actions
+theme: sitedrupalfilmes
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Principais ações do administrador'
+  label_display: '0'
+  provider: core
+visibility: {  }

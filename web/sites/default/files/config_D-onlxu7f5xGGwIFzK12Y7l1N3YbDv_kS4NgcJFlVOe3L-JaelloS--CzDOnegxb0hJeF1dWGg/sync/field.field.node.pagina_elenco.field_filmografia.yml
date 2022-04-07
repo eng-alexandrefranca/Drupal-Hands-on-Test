@@ -1,0 +1,23 @@
+uuid: 30e82725-ef5f-4391-acbc-c1e2f9f4684c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_filmografia
+    - node.type.pagina_elenco
+  module:
+    - link
+id: node.pagina_elenco.field_filmografia
+field_name: field_filmografia
+entity_type: node
+bundle: pagina_elenco
+label: Filmografia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

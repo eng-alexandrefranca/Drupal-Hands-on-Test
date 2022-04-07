@@ -1,0 +1,11 @@
+uuid: b3068312-9284-45cc-9866-72e9615b1fb8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_conteudo
+id: taxonomy_term.categoria_conteudo
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_conteudo
+default_langcode: site_default
+language_alterable: false

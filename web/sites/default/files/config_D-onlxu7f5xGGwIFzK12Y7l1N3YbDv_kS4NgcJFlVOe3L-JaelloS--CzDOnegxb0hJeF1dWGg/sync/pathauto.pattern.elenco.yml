@@ -1,0 +1,22 @@
+uuid: eb87c2af-d45c-40a0-a0bd-99222cac692e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: elenco
+label: Elenco
+type: 'canonical_entities:node'
+pattern: 'elenco/[node:title]'
+selection_criteria:
+  976c0654-fad8-4287-af17-798447c52c89:
+    id: node_type
+    negate: false
+    uuid: 976c0654-fad8-4287-af17-798447c52c89
+    context_mapping:
+      node: node
+    bundles:
+      pagina_elenco: pagina_elenco
+selection_logic: and
+weight: -5
+relationships: {  }

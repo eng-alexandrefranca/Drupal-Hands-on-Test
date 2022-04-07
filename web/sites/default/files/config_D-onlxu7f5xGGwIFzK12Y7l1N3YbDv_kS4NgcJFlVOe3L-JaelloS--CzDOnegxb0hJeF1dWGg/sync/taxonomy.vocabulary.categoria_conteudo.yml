@@ -1,0 +1,8 @@
+uuid: 3b470ba7-44d9-4412-bdfc-c80b81ce9120
+langcode: pt-br
+status: true
+dependencies: {  }
+name: 'Categoria Conteúdo'
+vid: categoria_conteudo
+description: ''
+weight: -10

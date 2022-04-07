@@ -1,0 +1,23 @@
+uuid: 397f290c-a1d5-497d-8c04-a0a97f313d74
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pagina_filme
+  module:
+    - text
+id: node.pagina_filme.body
+field_name: body
+entity_type: node
+bundle: pagina_filme
+label: Sinopse
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
