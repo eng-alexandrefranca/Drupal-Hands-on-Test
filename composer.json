@@ -29,6 +29,7 @@
         "ext-tokenizer": "*",
         "ext-xml": "*",
         "composer/installers": "^1.9",
+        "drupal/backup_migrate": "5.0",
         "drupal/bootstrap": "3.x-dev@dev",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
