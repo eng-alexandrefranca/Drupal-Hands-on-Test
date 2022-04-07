@@ -52,7 +52,13 @@ O conteúdo terá, pelo menos, 10 filmes e 3 atores para cada filme.
 - criação de view para a página Atores e Atrizes;
 - desabilitar cadastro de usários no site;
 - desabilitar informações de postagem: usuário, data e hora;
-- instalação do módulo de imagens resposivas;
+- instalação do módulo de imagens resposivas.
+
+### Etapas da Entrega do Projeto:
+
+- o projeto deverá estar em um repositório git;
+- configurar controle de versão;
+- 
 
 
 Guia Mark Down: <https://www.markdownguide.org/basic-syntax/>
